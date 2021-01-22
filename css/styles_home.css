@@ -1,0 +1,82 @@
+/*LOGIN*/
+
+#container {
+    background-color: lawngreen;
+    background-image: radial-gradient(#33b68f, #63fa9d);
+    height: 100%;
+    position: relative !important;
+}
+
+.botao_nav {
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-transform: uppercase;
+    border: 1px solid rgb(75, 211, 159);
+    color: rgb(18, 70, 25);
+    font-weight: bold;
+    box-shadow: 0px 1px rgb(75, 211, 159), 0px 2px rgb(75, 211, 159), 0px 3px rgb(75, 211, 159);
+    transition: box-shadow .2s linear;
+}
+
+.botao_nav:hover {
+    text-decoration: none;
+    color: rgb(75, 211, 159);
+}
+
+.botao_nav:active {
+    position: relative;
+    top: 2px;
+    box-shadow: none;
+}
+
+.icones_R {
+    margin-left: 20px;
+}
+
+#rodape {
+    font-size: 10pt;
+    color: grey;
+    border: 1px solid rgb(50, 73, 60);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(50, 77, 62);
+    margin-top: 20px;
+}
+
+#logo {
+    justify-content: center;
+}
+
+.navbar {
+    background-color: #fff;
+    border: 1px solid rgb(32, 143, 78);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(34, 146, 84);
+}
+
+.navbar-brand {
+    width: 200px;
+}
+
+.d-flex {
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.col6 {
+    border: 1px solid rgb(32, 143, 78);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(34, 146, 84);
+    background-color: white;
+}
+
+#so {
+    padding: 15px;
+    margin-top: 25px;
+}
+
+@media only screen and (min-height: 650px) {
+    #entregador {
+        margin-top: 110px !important;
+    }
+}
